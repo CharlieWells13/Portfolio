@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            color: #f0f0f0;
+            background-color: #1c1c1c;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Header Section */
+        header {
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: white;
+        }
+
+        /* About Section */
+        .about {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        .about p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            color: #cccccc;
+        }
+
+        /* Project Section */
+        .projects {
+            margin-top: 30px;
+        }
+
+        .project {
+            background: #333333;
+            margin: 15px 0;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+
+        .project h3 {
+            color: #3498db;
+            margin-top: 10px;
+        }
+
+        .project p {
+            color: #bbbbbb;
+            margin-top: 10px;
+        }
+
+        .project a {
+            display: inline-block;
+            margin-top: 10px;
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        .project a:hover {
+            text-decoration: underline;
+        }
+
+        /* Project Image */
+        .project img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9em;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Charlie Wells Portfolio</h1>
+        </header>
+
+        <section class="about">
+            <p>Below are a few projects I've worked on</p>
+        </section>
+
+        <section class="projects">
+            <div class="project">
+                <h3>Foddian Platformer Game in Java</h3>
+                <p>In a group setting, created a 2D Foddian platform game in java swing. I primarily worked on the game physics, the pixel art, level design, and animations</p>
+                <a href="https://github.com/CharlieWells13/TeamProjectStarter2300/tree/deliverable2-please-read-the-README" target="_blank">View on GitHub</a>
+                <img src="GameImage.png" alt="Image of game">
+            </div>
+            <div class="project">
+                <h3>Chatroom written in C</h3>
+                <p>In a group setting, created a chatroom in C utilizing sockets and threads, allowing users to do multiple things such as rename themselves and chat</p>
+                <a href="https://github.com/CharlieWells13/chat_server_copy" target="_blank">View on GitHub</a>
+                <img src="ChatServerScreenshot.png" alt="Image of chat server">
+                <p>*please note this is not the original repository; the original was made through GitHub Classroom and cannot be made public</p>
+            </div>
+            <div class="project">
+                <h3>Multithreaded Password Cracker in C</h3>
+                <p>Utilized parallelism inside of C to create a multithreaded brute force password cracker to try and crack a hash</p>
+                <a href="https://github.com/CharlieWells13/password_cracker_copy" target="_blank">View on GitHub</a>
+                <img src="CrackerScreenshot.png" alt="Image of password cracker">
+                <p>*please note this is not the original repository; the original was made through GitHub Classroom and cannot be made public</p>
+            </div>
+            <div class="project">
+                <h3>Custom Shell in C</h3>
+                <p>Working with a group, made a custom shell in C allowing a user to enter commands backwards and using a different pipe character</p>
+                <a href="https://github.com/CharlieWells13/shell_copy" target="_blank">View on GitHub</a>
+                <img src="ShellScreenshot.png" alt="Image of shell">
+                <p>*please note this is not the original repository; the original was made through GitHub Classroom and cannot be made public</p>
+            </div>
+        </section>
+
+        <footer>
+         Charlie Wells
+        </footer>
+    </div>
+</body>
+</html>
