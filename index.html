@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <style>
-        /* Basic Reset */
         * {
             margin: 0;
             padding: 0;
@@ -24,7 +23,6 @@
             padding: 20px;
         }
 
-        /* Header Section */
         header {
             text-align: center;
             padding: 20px 0;
@@ -35,7 +33,6 @@
             color: white;
         }
 
-        /* About Section */
         .about {
             margin: 20px 0;
             text-align: center;
@@ -47,7 +44,6 @@
             color: #cccccc;
         }
 
-        /* Project Section */
         .projects {
             margin-top: 30px;
         }
@@ -108,7 +104,28 @@
             <p>Below are a few projects I've worked on</p>
         </section>
 
+
         <section class="projects">
+            <div class="project">
+                <h3>SpeakEasy</h3>
+                <p>SpeakEasy is a hands free AI powered language learning app. It allows users to learn their langauge of choice completely hands free in situations such
+                    as driving a car. The frontend is built in Javascript and the backend is built in Python, all connected via Flask. I was primarily responsible for building the 
+                    flask server, managing the control flow, and dealing with audio input and output.
+                </p>
+                <a href="https://github.com/williamphoenix/speakEasy" target="_blank">View on GitHub</a>
+                <img src="/Portfolio/Speakeasy.png" alt="Image of Speakeasy">
+            </div>
+            
+            <div class="project">
+                <h3>Baseball Card Maker (In progress)</h3>
+                <p>Baseball Card maker is a React App that allows users to create fully custom Baseball cards using real MLB data. The backend is mostly complete, leveraging pybaseball in python 
+                    to generate real player stat lines, that then can be displayed on the frontend. The frontend is in development, using the Mosiac package in React to allow the user to drag around
+                    different components of a baseball card to create a fully custom card.
+                  </p>
+                <a href="https://github.com/CharlieWells13/Baseball-Card-Maker" target="_blank">View on GitHub</a>
+                <img src="BrentCard.png" alt="Image of a custom baseball card with Brent Rooker on it">
+            </div>
+
             <div class="project">
                 <h3>Foddian Platformer Game in Java</h3>
                 <p>In a group setting, created a 2D Foddian platform game in java swing. I primarily worked on the game physics, the pixel art, level design, and animations</p>
